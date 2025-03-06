@@ -13,11 +13,11 @@ class Solution {
             }
         ArrayList<Integer> arr = new ArrayList<>();
         for (int i = 0; i < array1.length; i++) {
-            if (array1[i] % 2 == 0) {
+            if (array1[i] % 2 != 0) {
                 arr.add(array1[i]);
                 }
             }
-        System.out.println("Even numbers: " + arr);
+        System.out.println("no even numbers: " + arr);
         }
     }
 
